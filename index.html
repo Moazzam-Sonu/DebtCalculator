@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Debt Repayment Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Enter auto loan details</h1>
+        <div class="input-container">
+            <label for="initialDebt">Current balance ($):</label>
+            <input type="number" class="input"  required>
+        </div>
+        <div class="input-container">
+            <label for="interestRate">Interest rate (%):</label>
+            <input type="number" class="input"  required>
+        </div>
+        <div class="input-container">
+            <label for="monthlyPayment">Total monthly payment ($):</label>
+            <input type="number" class="input"  required>
+        </div>
+        <button id="calculateButton">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="debtImportant.js"></script>
+</body>
+</html>
